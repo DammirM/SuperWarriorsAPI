@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperWarriorsAPI", "SuperWarriorsAPI.csproj", "{2BA6E90E-03B4-43D4-A057-46F4AB3FD685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorLibrary", "..\WarriorLibrary\WarriorLibrary.csproj", "{0E2EC578-DBA9-4B3F-8E53-9914AD0542DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BA6E90E-03B4-43D4-A057-46F4AB3FD685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BA6E90E-03B4-43D4-A057-46F4AB3FD685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BA6E90E-03B4-43D4-A057-46F4AB3FD685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BA6E90E-03B4-43D4-A057-46F4AB3FD685}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E2EC578-DBA9-4B3F-8E53-9914AD0542DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E2EC578-DBA9-4B3F-8E53-9914AD0542DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E2EC578-DBA9-4B3F-8E53-9914AD0542DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E2EC578-DBA9-4B3F-8E53-9914AD0542DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48C6999E-E429-42A9-A9EB-F1FBA2446FF9}
+	EndGlobalSection
+EndGlobal
