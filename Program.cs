@@ -17,7 +17,8 @@ namespace SuperWarriorsAPI
 
             //implementing repository pattern below:
             builder.Services.AddScoped<IEmployeeRepository, EmployeeRepo>();
-
+            builder.Services.AddScoped<IProjectRepository, ProjectRepo>();
+            builder.Services.AddScoped<ITimeReportRepository, TimeReportRepo>();
 
 
             builder.Services.AddDbContext<WarriorContext>(options => options
